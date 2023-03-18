@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>automobile.comorgb</title>
+    <link rel="stylesheet" href="art.css">
+</head>
+<body>
+	<header>
+        <nav>
+            <img src="logo.png" alt="">
+            <label class="switch">
+                <p>Dark mode</p>
+                <input type="checkbox" id="theme-toggle">
+                <span class="slider round"></span>
+            </label>
+            <script>
+                const themeToggle = document.querySelector('#theme-toggle');
+                const body = document.querySelector('body');
+    
+                themeToggle.addEventListener('change', function() {
+                  if (this.checked) {
+                    body.classList.add('dark-mode');
+                  } else {
+                    body.classList.remove('dark-mode');
+                  }
+                });
+    
+            </script>
+        </nav>
+		
+	</header>
+	
+	<main>
+		<article>
+			<h2>Automotive development</h2>
+			<p>by Jose Santos</p>
+			<p>Published on January 1, 2023</p>
+			
+			<p>The automotive industry is constantly evolving, with new technologies and trends emerging every year. In recent years, we have seen a rise in the popularity of electric and hybrid cars, as well as the development of self-driving vehicles. In this article, we will explore some of the latest types of cars that are currently on the market.
+
+                <h4>Electric Cars</h4>
+                
+                Electric cars have been around for several years now, but they are becoming increasingly popular due to their environmental benefits and low running costs. These cars are powered by electric motors, which are fueled by rechargeable batteries.
+                
+                One of the latest electric cars to hit the market is the Tesla Model 3. This car is designed to be more affordable than previous Tesla models, with a starting price of around $40,000. It has a range of around 250 miles on a single charge and can accelerate from 0 to 60 mph in just 5.3 seconds.
+                
+                Another new electric car is the Audi e-tron. This SUV has a range of around 222 miles on a single charge and can be charged to 80% in just 30 minutes using a fast-charging station. It also comes with a host of advanced features, such as a virtual cockpit and a 360-degree camera system.
+                
+                <h4>Hybrid Cars</h4>
+                
+                Hybrid cars are another type of vehicle that is becoming more popular. These cars combine a traditional gasoline engine with an electric motor, allowing them to achieve better fuel efficiency than conventional cars.
+                
+                One of the latest hybrid cars on the market is the Toyota Prius Prime. This car has a range of around 25 miles on electric power alone and can achieve up to 54 mpg in combined city/highway driving. It also comes with a suite of advanced safety features, including adaptive cruise control and lane departure warning.
+                
+                Another new hybrid car is the Honda Insight. This sedan has a range of around 48 mpg in combined city/highway driving and features a sleek and modern design. It also comes with a range of advanced safety features, including collision mitigation braking and road departure mitigation.
+                
+                <h4>Self-Driving Cars</h4>
+                
+                Self-driving cars are one of the most exciting new technologies in the automotive industry. These vehicles are designed to be able to navigate roads and traffic without any input from a human driver.
+                
+                One of the latest self-driving cars on the market is the Waymo One. This vehicle is currently being tested in Phoenix, Arizona and is available to select customers through a ride-hailing app. It uses a range of sensors and cameras to navigate roads and traffic, and has a human safety driver on board in case of emergencies.
+                
+                Another self-driving car that is currently in development is the Cruise Origin. This vehicle has a futuristic design and is designed to be used as a ride-sharing vehicle. It has no traditional driver controls, with passengers using a touchscreen interface to select their destination.
+                
+                <h4>Luxury Cars</h4>
+                
+                Luxury cars are another type of vehicle that is constantly evolving. These cars are designed to provide a high level of comfort and luxury, as well as advanced technology and performance.
+                
+                One of the latest luxury cars on the market is the Mercedes-Benz S-Class. This sedan features a sleek and modern design, with a range of advanced features such as a digital dashboard and a 3D surround sound system. It also comes with a range of advanced safety features, including adaptive cruise control and lane-keeping assist.
+                
+                Another new luxury car is the Audi A8. This sedan features a stunning design, with a range of advanced features such as a virtual cockpit and a head-up display. It also comes with a range of advanced safety features, including night vision assist and intersection assist.</p>
+		</article>
+	</main>
+	
+	<footer>
+    <p>&copy; 2023 Jose S.Santos. All rights reserved.</p>
+    <nav>
+      <ul>
+        <li><a href="contact.html">Contact Us</a></li>
+        <li><a href="privacy.html">Privacy Policy</a></li>
+        <li><a href="terms.html">Terms of Use</a></li>
+      </ul>
+    </nav>
+  </footer>
+</body>
+</html>
